@@ -160,4 +160,12 @@ enum FeatureFlag {
   /// Flag indicating if the prejoin page should be enabled.
   /// Default: enabled (true).
   isPrejoinPageEnabled,
+
+  /// Flag indicating if the participant name editing field should be displayed on the prejoin page.
+  /// Default: disabled (false).
+  isHideDisplayNameEnabled,
+
+  /// Flag indicating if settings should be enabled.
+  /// Default: enabled (true).
+  isSettingsEnabled,
 }

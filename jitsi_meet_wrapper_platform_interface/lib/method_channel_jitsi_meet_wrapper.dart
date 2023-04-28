@@ -238,6 +238,10 @@ class MethodChannelJitsiMeetWrapper extends JitsiMeetWrapperPlatformInterface {
         return 'video-share.enabled';
       case FeatureFlag.isPrejoinPageEnabled:
         return 'prejoinpage.enabled';
+      case FeatureFlag.isHideDisplayNameEnabled:
+        return 'prejoinpage.hideDisplayName';
+      case FeatureFlag.isSettingsEnabled:
+        return 'settings.enabled';
     }
   }
 }
